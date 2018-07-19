@@ -113,15 +113,15 @@ header img{
  	background-position: center;
  	height: 500px;
  	width: 1200px;
- 	margin-bottom: 200px;
  }
 
+.locationscontent h2{
+	padding-top: 70px;
+	padding-bottom: 15px;
+}
  .blackboxes{
  	display: flex;
- 	flex-wrap: wrap;
- 	align-items: center;
  	justify-content: center;
- 	margin: 0 50px;
 
  }
  .addresses{
@@ -132,8 +132,29 @@ header img{
  	height: 300px;
  	width: 300px;
  	margin: 0 20px;
+ 	opacity: 1;
  }
 
  .addresses h3, p{
- 	padding: 15px 0;
+ 	padding: 20px 0;
  }
+ /*END LOCATIONS*/
+ /*CONTACT INFO*/
+ footer{
+ 	display: flex;
+ 	justify-content: center;
+ 	height: 200px;
+ }
+
+ footer h2{
+ 	padding: 10px;
+ }
+
+ footer h5{
+ 	margin: 30px 0;
+ }
+ /*END FOOTER*/
+ /*COPYRIGHT*/
+ .copyright{
+ 	text-align: left;
+ 	margin-left: 20px;
